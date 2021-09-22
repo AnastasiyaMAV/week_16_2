@@ -1,0 +1,32 @@
+body{
+    background:  radial-gradient(circle, rgb(0, 68, 255), rgb(0, 255, 179));
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.indent__style{
+    margin-top: 10px;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-areas: "calc_content result_content";
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /*border: 2px solid green;
+    width: 500px;*/
+    margin-left: 100px;
+}
+
+.calc_content {
+    grid-area: calc_content;
+}
+
+.result_content {
+    grid-area: result_content;
+    /*border: 2px solid green;*/
+    margin-left: 40px;
+}
